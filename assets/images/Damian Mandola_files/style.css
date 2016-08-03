@@ -1,27 +1,19 @@
 
 body {
 	width: 960px;
-	height: auto;
-	background: url(../images/contemporary_china_2.png);
 }
 main {
 	width: 650px;
 }
 .header {
-	position: static;
-	background: #ffffff;
-}
+	position: relative;
 
-h1 {
-	background: #4aaaa5;
-	color: #ffffff;
-	width: 25%;
-	
 }
 .navbar {
-	text-align: right;
-}
+	
+	float: right;
 
+}
 .main {
 
 }
