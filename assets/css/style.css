@@ -13,7 +13,7 @@ body{
 .header {
 	width: 100%;
 	background-color: #ffffff;
-	padding-top: 41px;
+	padding-top: 0px;
 	top: 0px;
 	left: 0px;
 	position: relative;
@@ -24,21 +24,22 @@ body{
 	}
 
 h1 {
-	position: fixed;
+	position: relative;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 24px;
 	background: #4aaaa5;
 	color: #ffffff;
 	text-align: center;
-	left: 222px;
-	top: -1px;
-	padding: 17px;
+	left: 160px;
+	top: 0px;
+	padding: 16px;
 	
 }
 .navbar {
 	position: relative;
-	left: 709px;
-	bottom: 21px;
+	left: 437px;
+	bottom: 0px;
+	padding: 20px;
 	color: #777777;
 	background: #ffffff; 
 }
@@ -55,42 +56,105 @@ li a {
 	margin-top: 5px;
 }
 
-.section {
+.main{
+	margin: 10px 0px 10px 20px;
+	width: 650px;
+	float: left;
+	background: #ffffff;
+
+}
+.about {
 	margin: 10px 0px 10px 20px;
 	width: 650px;
 	float: left;
 	background: #ffffff;
 }
 
-#bio {
-	width: 200px;
+.bio {
+	padding: 10px;
 }
 
-.portfolio {
+
+.portmain {
+	margin: 10px 0px 10px 20px;
+	width: 650px;
 	float: left;
-	margin-right: 10px;
+	background: #ffffff;
 
 }
+
+#hman{
+	background-image: url(../images/hangman200-200.jpg);
+}
+.portfolio{
+	position: relative;
+    top: 7px;
+    left: 87px;
+
+}
+
 .image {
 	position: relative;
 	margin: 0;
-	
+	display: inline-block;
+	width: 250px;
+	float: left;
+	padding: 4px;
 }
-h2 {
+
+
+.contact{
+	margin: 10px 0px 10px 20px;
+	width: 650px;
+	float: left;
+	background: #ffffff;
+
+}
+
+.form{
+	position: relative;
+	margin: ;
+
+}
+input[type=text] {
+	margin: 5px 0px;
+}
+.submit {
+	background-color: #4aaaa5;
+}
+.h2main {
 	font-family: "Georgia", "Times", Times New Roman, serif;
 	font-size: 18px;
 	color: #4aaaa5;
 	text-align: left;
 	border-bottom: 1px solid #cccccc;
 	margin: 10px 30px;
+	position: relative;
+	left: -19px;
+	padding: 19px 0px;
+}
+.h2side {
+	font-family: "Georgia", "Times", Times New Roman, serif;
+	font-size: 18px;
+	color: #4aaaa5;
+	text-align: center;
+	border-bottom: 1px solid #cccccc;
+	margin: 10px 30px;
+	padding: 10px; 
 }
 
-h3{
-	font-family: "Georgia", "Times", Times New Roman, serif;
+.h3{
 	position: absolute;
-	padding: 5px 60px;
-	top: 160px;
-	text-align: center;
+    bottom: 14px;
+    left: 0;
+    background-color: teal;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 5px 0px;
+    margin: 6px 4px;
+    width: inherit;
+	
 }
 
 aside {
@@ -99,7 +163,15 @@ aside {
 	float: right;
 	text-align: center;
 	background: #ffffff;
-	
+}
+
+.sdlist{
+	padding-bottom: 37px;
+	padding-top: 4px;
+}
+
+.asd{
+	margin: 0px 3px;
 }
 
 footer {
